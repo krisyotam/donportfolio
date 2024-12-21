@@ -1,0 +1,55 @@
+/* Interactive Components */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.link-external {
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.link-external:hover {
+  text-decoration: underline;
+}
+
+.content-link {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  margin: 0 -0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+}
+
+.content-link:hover {
+  background-color: #1a1a1a;
+}
+
+.view-all {
+  color: #757575;
+}
+
+.globe-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Icons */
+.icon-arrow,
+.icon-globe {
+  display: inline-block;
+  vertical-align: middle;
+  stroke: currentColor;
+}
+
+.icon-arrow {
+  margin-left: 0.125rem;
+}
